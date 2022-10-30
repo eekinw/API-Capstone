@@ -1,0 +1,83 @@
+
+html {
+    line-height: 1.15;
+}
+
+
+body {
+    padding: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+
+#nav-bar {
+    background-color: grey;
+    height: 40px;
+    font-size: x-large;
+
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 100px;
+
+}
+
+#row {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    column-gap: 15px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+#card {
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    width: 429px;
+    height: auto;
+    align-items: center;
+
+
+}
+
+#image {
+    height: 300px;
+    width: 429px;
+}
+
+#name {
+    font-size: large;
+    font-style: italic;
+    color: red;
+    font-weight: 200;
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+#text {
+    margin-bottom: 60px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#button {
+    margin-top: auto;
+    width: 100%;
+}
+
+#button:hover {
+    background-color: red;
+    color: black;
+}
